@@ -10,8 +10,8 @@ describe("Given a card", () => {
         screen.getByRole("heading"),
         screen.getByText(/Familia/i),
       ];
+      expect(elements[0]).toBeInTheDocument();
+      expect(elements[1]).toBeInTheDocument();
     });
-    expect(elements[0]).toBeInTheDocument();
-    expect(elements[1]).tobeInt;
   });
 });
