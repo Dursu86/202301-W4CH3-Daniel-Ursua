@@ -1,6 +1,6 @@
 import { Header } from "../header/header";
 
-export function App() {
+export default function App() {
   return (
     <div className="App">
       <Header></Header>
