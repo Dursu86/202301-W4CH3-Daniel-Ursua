@@ -1,5 +1,4 @@
 import { Character } from "./character";
-import { Fighter } from "./fighter";
 
 export class Squire extends Character {
   isLive: boolean = true;
@@ -8,7 +7,7 @@ export class Squire extends Character {
     public family: string,
     public age: number,
     public boss: Character,
-    public servility: 0 | 1 | 2 | 3 | 4 | 5 | 7 | 8 | 9 | 10
+    public servility: number
   ) {
     super(name, family, age);
   }

@@ -1,9 +1,9 @@
 /* eslint-disable no-unused-vars */
-interface Got {
+export type Got = {
   name: string;
   family: string;
   age: number;
-}
+};
 
 export class Character implements Got {
   isLive: boolean;

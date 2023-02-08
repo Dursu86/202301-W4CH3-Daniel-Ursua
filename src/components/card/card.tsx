@@ -1,3 +1,3 @@
 export function Card() {
-  return;
+  return <div></div>;
 }
